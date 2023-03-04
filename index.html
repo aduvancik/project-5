@@ -10,18 +10,29 @@
 <body>
 	<div class="gradient-border" id="box">
 		<form action="#" method="get">
+      <div class="name">
+    <label  for="select">Введіть ім'я:</label>
+<input   type="text" name="numbers" placeholder="Oleg Krivogub"value="name"  required>
+      </div>
 			<div class="select">
-        <label  for="select">Виберіть товар</label></br>
-				<select class="input" name="select">
-					<option class="input"  selected>Товар</option>
-					<option >яблуко</option>
-					<option >груша</option>
-					<option >банан</option>
-					<option >абрикос</option>
+        <label  for="select">Виберіть піцу:</label>
+				<select class="input" name="select"  value="piza" required>
+         
+					<option class="input"  selected>піца</option required>
+					<option >Гавайська</option>
+					<option >Папероні</option>
+					<option >Веганська</option>
 				  </select>
 			</div>
-      <label  for="numbers">Кількість</label></br>
-		  <input  class="num" type="number" name="numbers" value="female"><br>    
+			<div class="size">
+        <label class="text" for="sizw">Розмір:</label>
+			<input  type="radio" name="gender" value="size" checked required> маленька
+		  <input  type="radio" name="gender" value="size"> середня   
+      <input  type="radio" name="" value="size"> Велика </div></br>  
+      <div class="adresa">
+        <label  for="select">Введіть адресу:</label>
+      <input   type="text" name="numbers"  value="adresa" placeholder="сорохетя 19/1" required>  </br>
+      </div>
       <input  class="bth" type="submit" value="Доддати до кошика" onclick="alert('Товар додано до кошика')">
 		</form>
 	</div>
