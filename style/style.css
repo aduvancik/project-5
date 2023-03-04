@@ -87,7 +87,7 @@ body {
   margin: 50px 0px 0px 0px;
 }
 .name input {
-  padding: 3px;
+  padding: 10px;
   border-radius: 20px;
 }
 
@@ -97,7 +97,7 @@ body {
   margin: 50px 0px 0px 0px;
 }
 .select input {
-  padding: 3px;
+  padding: 10px;
   border-radius: 20px;
 }
 
@@ -111,6 +111,13 @@ form {
 }
 .adresa input {
   border-radius: 20px;
-  padding: 2px;
+  padding: 10px;
   margin-left: 20px;
+}
+
+input {
+  color: #120338;
+  font-weight: 900;
+  border: 3px #08979c solid;
+  background-color: rgba(129, 45, 211, 0.9);
 }/*# sourceMappingURL=style.css.map */

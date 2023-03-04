@@ -86,7 +86,7 @@ body {
   justify-content: space-between;
   margin: 50px 0px 0px 0px;
   input{
-    padding: 3px;
+    padding: 10px;
     border-radius:20px;
   }
 }
@@ -95,7 +95,7 @@ body {
   justify-content: space-between;
   margin: 50px 0px 0px 0px;
   input{
-    padding: 3px;
+    padding: 10px;
     border-radius:20px;
   }
 }
@@ -107,9 +107,15 @@ form{
   justify-content: space-between;
   input{
     border-radius:20px;
-    padding: 2px;
+    padding: 10px;
     margin-left: 20px;
   }
+}
+input{
+  color: #120338;
+  font-weight: 900;
+  border: 3px #08979c solid;
+  background-color: rgba(129, 45, 211, 0.9);
 }
 
 
