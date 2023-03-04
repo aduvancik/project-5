@@ -1,0 +1,82 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+// /////////////////////
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #363d41;
+}
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+}
+.gradient-border {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: 100px;
+  display:flex;
+  text-align: center;
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * 10px);
+  left: calc(-1 * 10px);
+  height: calc(100% + 20px);
+  width: calc(100% + 20px);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * 100px);
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.bth {
+	padding: 5px;
+	border-radius:20px;
+	background-color: #434343;
+	color: #fff;
+	font-weight: 600;
+	transition: all .5s ease 0s;
+	&:hover{
+		background-color: #bfbfbf;
+		color: #1D1F20;
+		
+	}
+}
+.num{
+	width: 100px;
+	border-radius:20px;
+	padding: 3px;
+}
+.input{
+	border-radius:20px;
+	padding: 2px;
+}
+
+
