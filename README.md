@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Oleg</h1>
 
-<p>The online platform for selling animals is a platform where you can sell or buy a pet</a></p>
+<p>my first job<</p>
 
 <h2>🚀 Demo</h2>
 
