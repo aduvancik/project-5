@@ -8,7 +8,7 @@
 
 <h2>Project Screenshots:</h2>
 
-![screenshot](https://github.com/aduvancik/aduvancik/blob/main/Знімок%20екрана%202024-06-14%20о%2013.32.44.png)
+![screenshot](https://github.com/aduvancik/aduvancik/blob/main/Знімок%20екрана%202024-06-15%20о%2023.25.28.png)
 
 
 <h2>💖Like my work</h2>
